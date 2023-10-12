@@ -1,144 +1,91 @@
-<!DOCTYPE html> <html lang="pt-br"><head> 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HTML5</title><meta charset="utf-8"> 
-    <style>
-        table,th,td {border: 1px solid black; border-collapse: collapse;}
-        
-        </style>
-     </head>   
-      <body>
-                <header>
-                    <h1>Um título com tag h1</h1> <br>
-                    <p>Abaixo coloque <i>uma tag</i> e dentro do <b>parágrafo coloque</b> textos com 
-                        as tags</p> <br>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-     </header>
-                <nav> 
-                    <ul> 
-                        <li>Menu</li>
-                         <li>Principal</li>
-                         <li>Produtos</li>
-                         <li>Serviços</li>
-                         <li>Sobre</li>
-                        </ul> 
-     </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document2</title>
+    <link rel="stylesheet" href="css/principal.css">
+</head>
 
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.jpg" alt=""></a>
 
-                <main>
-                        <ol>
-                         <li>Frutas
-                            <ul type="disc"> 
-                                <li>Banana</li>
-                                <li>Maça</li>
-                                <li>Abacate</li>
-                            </ul>
-                        <li>Legumes</li>
-                            <ul type="disc">
-                                <li>Cebola</li>
-                                <li>Pimentão</li>
-                            </ul>
-                        <li>Cereais</li>
-                            <ul type="disc"> 
-                                <li>Arroz</li>
-                                <li>feijão</li>
-                            </ul>
-                        </ol>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Principal</a></li>
+                
+                <li><a href="html/kardec.html">Kardec</a></li>
+                <li><a href="html/autor.html">Autores</a></li>
+                <li><a href="html/formulario.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>O espiritismo e você.</h1>
+        <div class="principal">
 
+            <div class="quadrado1">
+                <h3>Sobre o espiritismo</h3>
+                <p>É com grande satisfação que lhe damos as boas-vindas a "Espiritismo e Você", o seu refúgio online para explorar as maravilhas do espiritismo. 
+                    Neste espaço, convidamos você a mergulhar nas profundezas desta filosofia enriquecedora, desvendando os mistérios do mundo espiritual e
+                     descobrindo como o espiritismo pode ser uma fonte de inspiração e crescimento espiritual em sua vida.
+                </p>
+            </div>
 
+            <div class="quadrado2">
+                <h3>Prêmios:</h3>
+                <p>
 
-                        <table>
-                            <caption><b>Lucro por Mês</b></caption>
-                            <thead>
-                            <tr>
-                            <th>Mês</th>
-                            <th colspan="2">Frutas</th>
-                            </tr>
-                            <tr>
-                                <th></th>
-                                <th>Banana</th>
-                                <th>Maça</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                <td>Janeiro</td>
-                                <td>R$100</td>
-                                <td>R$50</td>
-                                </tr>
-                                <tr>
-                                <td>Fevereiro</td>
-                                <td>R$120</td>
-                                <td>R$100</td>
-                                </tr>
-                                <tr>
-                                <td>Março</td>
-                                <td>R$120</td>
-                                <td>R$150</td>
-                                </tr>
-                                </tbody>
-                                <tfoot>
-                                <tr>
-                                <td>Total</td>
-                                <td>R$340</td>
-                                <td>R$300</td>
-                                </tr>
-                                </tfoot>
-                               </table>
+                    
+                    Nossos artigos e discussões são projetados para oferecer uma visão clara dos princípios do espiritismo, 
+                    explorar suas práticas e promover um ambiente de aprendizado e reflexão. 
+                    Este é o seu convite para se juntar a nós, compartilhar suas experiências e expandir seu conhecimento espiritual. 
+                    Em "Espiritismo e Você", encontrará uma comunidade acolhedora, pronta para explorar, aprender e crescer juntos. 
+                    Seja parte desta jornada e descubra como o espiritismo pode enriquecer sua vida, ampliando sua compreensão do mundo espiritual 
+                    e oferecendo uma visão mais profunda do "Você" espiritual que existe dentro de cada um de nós.
+                </p>
+            </div>
 
-                            <a href="https://ifrs.edu.br/" >
-                               <img src="img/ifrs.png" alt="figura do sol" width="250" height="150">
-                            </a>
-                            <figure>
-                                <img src="img/sol.jpg" alt="figura do sol"> 
-                                <figcaption>Sol Realistico</figcaption>
-                               </figure>
+            <div class="quadrado3">
+                <img src="img/foto.png" alt="">
+                <h3>Chico xavier, foi o maior representante do espiritismo no Brasil</h3>
+            </div>
 
 
-                            <form>
-                                <fieldset>
-                                <legend>Dados:</legend>
-                                Nome:<input type="text" name="nome" size="10" ><br>
-                                Senha:<input type="password" name="senha" ><br> <input type="hidden" name="user" value="14">
-                                Email:<input type="email" name="email"><br>
-                                Telefone:<input type="tel" name="telefone"><br>
-                                Comentário:<br><textarea name="comentario" cols="10" rows="5">Digite a 
-                                sua opinião</textarea><input type = "submit" value = "enviar"><br>
-                                </fieldset>
-                            </form>
-                            
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/qkAkX3TS2aY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </main>         
-                <footer>
-                    <a href="https://www.coca-cola.com.br/" >
-                        <p>                    Navegue por aqui
-Ofertas
-Garrafa Virtual
-Retornáveis
-Perguntas Frequentes
-Dá o play
-Minha receita mágica
-Aumente o volume
-Institucional
-Coca-Cola Brasil
-Trabalhe conosco
-Termos de uso
-Privacidade
-Investidores
+            <div class="quadrado4">
+                <h3>Vida e obra:</h3>
+                <p>
+                    Chico Xavier, foi um dos mais notáveis médiuns e filantropos da história do espiritismo. 
+                    Nascido no Brasil em 1910, ele dedicou grande parte de sua vida à psicografia, 
+                    escrevendo uma extensa quantidade de livros que se acredita terem sido ditados por espíritos. 
+                    Sua dedicação à caridade e sua capacidade de transmitir mensagens consoladoras e inspiradoras 
+                    tornaram-no uma figura reverenciada no movimento espírita e além. 
+                    Chico Xavier faleceu em 2002, deixando um legado de amor, humildade e compaixão que continua a inspirar pessoas em todo o mundo.</p>
+            </div>
+        </div>
 
-Cadastre-se
-Regulamento</p>
+    </main>
+    <footer class="footer">
+        <h1>EspiritismoEVC.com</h1>
+        <div class="flex2">
+            <h4>Conecte-se conosco</h4>
+            <div class="flex3">
+                <div>
+                    <img src="img/twitter.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/instagram.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/whatsapp.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
 
-© 2023 The Coca‑Cola Company, all rights reserved
-
-<p>The Coca-Cola Company, geralmente referida como Coca-Cola Company ou simplesmente Coca-Cola, dependendo da região, é uma empresa multinacional estadunidense, fabricante e comerciante de bebidas não-alcoólicas e concentrados de xaropes. É mais conhecida pelo seu produto Coca-Cola, inventado em 1886 pelo farmacêutico John Pemberton, em Columbus, Geórgia.</p>
-<p>Endereço: 1 Coca Cola Plz NW, Atlanta, 30313</p>
-<p>Fundado em: 29 de jan. de 1892</p>
-<p>Receita: 38,70 bilhões USD (2021)</p>
-<p>Sede: Atlanta, Geórgia</p>
-<p>CEOs: E. Neville Isdell (Desde 2004) · James Quincey (Desde 2017)</p>
-<p>Fundadores: John Pemberton · Asa Griggs Candler</p>
-<p>Subsidiárias: Columbia Pictures · Castle Rock Entertainment · Tandem Productions · Sunbow Entertainment</p>
-</a>
-     </footer>     
-          </body>
-    </html>
+</html>
